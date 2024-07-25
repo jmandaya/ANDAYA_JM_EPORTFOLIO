@@ -10,7 +10,7 @@
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo">Portfolio</a>
+        <a href="#" class="logo">My Portfolio</a>
         <nav class="navbar">
             <a href="#" style="--i:1;" class="active">Home</a>
             <a href="#about" style="--i:2;">About</a>
@@ -26,11 +26,12 @@
             <h1>I'm <span>Jhon Michael E. Andaya</span></h1>
             <h4>I am a 4th-year Information Technology student with hands-on experience in developing web and mobile applications, as well as integrating Internet of Things (IoT) technologies into web solutions. I am dedicated to creating innovative digital solutions that simplify our everyday tasks and enhance overall efficiency.</h4>
             <div class="social-media">
-                <a href="jmandaya54@gmail.com" style="--i:7;" aria-label="Gmail"><i class='bx bxl-gmail'></i></a>
+                <a href="mailto:jmandaya54@gmail.com" style="--i:7;" aria-label="Gmail"><i class='bx bxl-gmail'></i></a>
                 <a href="https://www.linkedin.com/in/jhon-michael-andaya-9190ba293/" style="--i:8;" aria-label="LinkedIn" target="_blank"><i class='bx bxl-linkedin'></i></a>
                 <a href="https://github.com/jmandaya" style="--i:9;" aria-label="GitHub" target="_blank"><i class='bx bxl-github'></i></a>
             </div>
-            <a href="ANDAYA_CV.pdf" class="btn">Download CV</a>
+            <a href="ANDAYA_CV.pdf" class="btn" download>Download CV</a>
+
         </div>
         <div class="home-img">
             <img src="pic.jpg" alt="Profile picture of Jhon Michael E. Andaya">
@@ -105,48 +106,65 @@
     
     <div class="separator2"></div>
 
-<section id="projects" class="projects">
-    <h2>Projects</h2>
-    <div class="panel-container2">
-        <div class="panel project2">
-            <h3>Brainy</h3>
-            <h4></h4>
-            <div class="panel-content">
-                <img src="brainy.png" alt="Screenshot of Bugtong Game project" class="project-img">
-                <p>This project is called Brainy. This is a game that was developed using Micrsoft Visual Studio on Console Application. Upong opening the user will be able to see three options and then if the user choses to play, a console application will appear and then there are bugtong questions that are needed to be answered.</p>
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="panel-container2">
+            <div class="panel project2">
+                <h3>Brainy</h3>
+                <div class="panel-content">
+                    <img src="brainy.png" alt="Screenshot of Bugtong Game project" class="project-img">
+                    <p>This project is called Brainy. This is a game that was developed using Microsoft Visual Studio on Console Application. Upon opening, the user will be able to see three options and then if the user chooses to play, a console application will appear and then there are bugtong questions that need to be answered.</p>
+                    <div class="software-used">
+                        <h4>Platforms Used</h4>
+                        <ul>
+                            <li>C#</li>
+                            <!-- Add more software here if needed -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="panel project5">
+                <h3>Fire Alarm System</h3>
+                <div class="panel-content">
+                    <img src="firedetection.png" alt="Screenshot of Fire Alarm System project" class="project-img">
+                    <!-- <iframe src="https://drive.google.com/file/d/1yoGbHFchPoTu2gRwUbAhB1v48Lml3M-2/preview" width="770" height="360" allow="autoplay"></iframe> -->
+                    <p>On this project, we used a Microcontroller called WeMos, an Infrared Sensor to detect the fire, and a buzzer for the alarm. When a fire is detected, the buzzer will be turned on and then the Date, Day, Time, and the Duration of the fire will be stored to a database and will be displayed on the website.</p>
+                    <div class="software-used">
+                        <h4>Platforms Used</h4>
+                        <ul>
+                            <li>HTML, CSS, C++, WeMos, MySQL, Fire Sensor</li>
+                            <!-- Add more software here if needed -->
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="panel project5">
-            <h3>Fire Alarm System</h3>
-            <h4></h4>
-            <div class="panel-content">
-                <img src="firedetection.png" alt="Screenshot of Fire Alarm System project" class="project-img">
-                <iframe src="https://drive.google.com/file/d/1yoGbHFchPoTu2gRwUbAhB1v48Lml3M-2/preview" width="770" height="360" allow="autoplay"></iframe>
-                <p>On this project we used a Microcontroller called WeMos, an Infrared Sensor to detect the fire, and a buzzer for the alarm. When a fire is detected the buzzer will be turned on and then the Date, Day, Time, and the Duration of the fire will be stored to a database and will be displayed to the website.</p>
+    </section>
+    <div class="separator2"></div>
+    <section id="CapstoneProject" class="capstone">
+        <h2>Capstone Project</h2>
+        <div class="panel-container3">
+            <div class="panel capstone1">
+                <h3>Room Signage Using E-Paper Display</h3>
+                <div class="panel-content">
+                    <img src="c1.png" alt="1" class="capstone-img">
+                    <p>This project is a mix of Internet of Things (IoT) and Web Development. The aim of this project is to create an efficient room scheduling system and room signage system by using the E-Paper Display which is connected to a microcontroller. All of the information of the class such as Room Number, Section, Course Code, Instructor Name, and Time Slot is coming from the Web Application and being displayed on the E-Paper Display.</p>
+                    <div class="software-used">
+                        <h4>Platforms Used</h4>
+                        <ul>
+                            <li>ASP.NET, C++, HTML, CSS, JS, MS SQL, ESP32</li>
+                            <!-- Add more software here if needed -->
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-<div class="separator2"></div>
-<section id="CapstoneProject" class="capstone">
-    <h2>Capstone Project</h2>
-    <h4></h4>
-    <div class="panel-container3">
-        <div class="panel capstone1">
-            <h3>Room Signage Using E-Paper Display</h3>
-            <div class="panel-content">
-                <img src="c1.png" alt="1" class="capstone-img">
-                <img src="c2.png" alt="2" class="capstone-img">
-                <img src="c3.png" alt="3" class="capstone-img">
-                <p>This project is a mixed if Internet of Things (IOT) and Web Development. The aims of this project is to create an efficient room scheduling system and room signage system by using the E-Paper Display which is connected to a microcontroller. All of the information of the class such as Room Number, Section, Course Code, Instructor Name, and Time Slot is coming from the Web Application and being displayed to the E-Paper Display.</p>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
+    
 
 <div class="separator3"></div>
 <section id="Practicum" class="practicum">
-    <h2>Practicum</h2>
+    <h2>Practicum Projects</h2>
     <h4></h4>
     <div class="panel-container4">
         <div class="panel practicum1">
@@ -158,10 +176,17 @@
                 <p>On this module the user will be entering the necessary information to the textboxes. Upon completing the information required, the user will be able to Add Stocks. After that the stocks that are entered will be transfered ta form and will be automatically sent in a PDF form to the employee that was assigned in processing the Return Slip Forms.</p>
                 <img src="dspiaddstocks.png" alt="Return Slip Add Stocks" class="capstone-img">
                 <p>On this module the user will be able to add stocks. Only the Admins, Managers, or Supervisors will be allowed to add a barcode of a product that was not registed to the database.</p>
+                <div class="software-used">
+                    <h4>Platforms Used</h4>
+                    <ul>
+                        <li>Visual Basic for Applications, Microsoft Excel</li>
+                        <!-- Add more software here if needed -->
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="panel practicum2">
-            <h3>Return Slip Form</h3>
+            <h3>Product Arrival Report</h3>
             <div class="panel-content">
                 <img src="dspipar.png" alt="Product Arrival Report" class="capstone-img">
                 <p>On this module the user will be able to enter the information of the delivery vehicle.</p>
@@ -169,6 +194,13 @@
                 <p>On this module the user will be able to upload the picture of the delivery vehicle.</p>
                 <img src="dspiupload.png" alt = "PAR Upload IMG" class="capstone-img">
                 <p>After entering the required information of the delivery vehicle, the user will be allowed to enter the information of the products that was being delivered to the company.</p>
+                <div class="software-used">
+                    <h4>Platforms Used</h4>
+                    <ul>
+                        <li>Visual Basic for Applications, Microsoft Excel</li>
+                        <!-- Add more software here if needed -->
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
